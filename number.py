@@ -19,14 +19,14 @@ def result(user, computer):
 if difficulty == "e":
     for count in range(9):
         user = input("Please enter a number between 1 to 100 ")
-        print(value)
+        #print(value)
         value = computer
         result(user, value)
         value = None
 if difficulty == "h":
     for count in range(4):
         user = input("Please enter a number between 1 to 100 ")
-        print(value)
+        #print(value)
         value = computer
         result(user, value)
         value = None
